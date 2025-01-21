@@ -1,0 +1,16 @@
+/* OTPInput.css */
+.otp-input {
+    text-align: center;
+  }
+  
+  .otp-input input {
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

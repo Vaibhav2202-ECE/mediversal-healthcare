@@ -1,0 +1,75 @@
+/* MobileOtpLogin.css */
+.mobile-login-container {
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: left;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-login-container label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.mobile-login-container input {
+  width: calc(100% - 110px); /* Adjusted to leave space for the "Send OTP" button */
+  padding: 15px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.mobile-login-container .otp-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adds spacing between input and button */
+  margin-bottom: 15px;
+}
+
+.mobile-login-container .otp-container input {
+  flex: 1;
+}
+
+.mobile-login-container .otp-container button {
+  flex: 0;
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mobile-login-container .otp-container button:hover {
+  background-color: #0056b3;
+}
+
+.mobile-login-container button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #3d824d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mobile-login-container button:hover {
+  background-color: #218838;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
